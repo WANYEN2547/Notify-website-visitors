@@ -54,7 +54,7 @@ function getUserIP()
 
 $user_ip = getUserIP();
 
-//echo $user_ip; // Output IP address [Ex: 177.87.193.134]
+//echo $user_ip; // 
 
 
 
@@ -158,7 +158,7 @@ $user_ip = getUserIP();
     "\n";
     //token ไลน์ 
     //data ข้อมูลจาก api 
-         $sToken = 'AqBsKdVf1zWFYfs6rDvDr0hopMikW56NV4u7MLvlkMB';
+         $sToken = '';
          $data = 'ข้อมูล'.$sMessage.'';
          $url = "https://notify-api.line.me/api/notify";
 
